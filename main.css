@@ -1,0 +1,43 @@
+/* Заголовок трансляции */
+.Iframe_body .LNIframe .name {
+    color: #fb8b01
+}
+
+/* Окно авторизации */
+.Iframe_body .LNIframe .auth_header {
+    background-color: #BD0707;
+}
+
+/* Кнопки подтверждения */
+.Iframe_body .LNIframe .auth .sbtn4 {
+    background: #AFAFAF none;
+}
+
+.Iframe_body .LNIframe .auth .sbtn42 {
+    background: #AFAFAF none;
+}
+
+.Iframe_body .LNIframe .auth {
+    background-color: #313131
+}
+
+/* Контрольная панель плеера */
+.media-control[data-media-control] .media-control-background[data-background] {
+    background: #000;
+    opacity: .4;
+}
+
+/* Подложка полосы перемотки */
+.media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar] .bar-background[data-seekbar] {
+    background: rgba(199, 171, 29, 0.2);
+}
+
+/* Индикатор предзагруженного видео */
+.media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar] .bar-background[data-seekbar] .bar-fill-1[data-seekbar] {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Индикатор полосы перемотки */
+.media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar] .bar-background[data-seekbar] .bar-fill-2[data-seekbar] {
+    background-image: linear-gradient(90deg, #e0fb01 0, #fb8b01);
+}
